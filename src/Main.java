@@ -5,7 +5,12 @@ public class Main {
         var income = new Income(35000, 75000);
         var calculator = new TaxCalculator2018(income);
         var report = new TaxReport(calculator);
+        report.show();
 
+        System.out.println("**********************");
+
+        var calculator2 = new TaxCalculator2019(income);
+        report = new TaxReport(calculator2);
         report.show();
     }
 }

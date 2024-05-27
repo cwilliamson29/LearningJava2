@@ -1,10 +1,9 @@
 import java.text.NumberFormat;
-import java.util.Currency;
 
 public class TaxReport {
-    private TaxCalculator2018 calculator;
+    private TaxCalculator calculator;
 
-    public TaxReport(TaxCalculator2018 calculator) {
+    public TaxReport(TaxCalculator calculator) {
         this.calculator = calculator;
     }
 
